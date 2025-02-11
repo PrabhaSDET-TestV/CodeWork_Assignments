@@ -1,4 +1,4 @@
-function sortColors(nums) {
+function sortElements(nums) {
     let low = 0, mid = 0, high = nums.length - 1;
 
     while (mid <= high) {
@@ -16,7 +16,7 @@ function sortColors(nums) {
     return nums;
 }
 
-console.log(sortColors([0, 1, 2, 1, 0, 2, 1, 0]));
+console.log(sortElements([0, 1, 2, 1, 0, 2, 1, 0]));
 
 /**
 * Sort an Array of 0s, 1s, and 2s:

@@ -17,6 +17,15 @@ function longestValidParentheses(s) {
     return maxLength;
 }
 
-// Example Usage
-console.log(longestValidParentheses("((()"));   // Output: 2
-console.log(longestValidParentheses(")()())")); // Output: 4
+console.log(longestValidParentheses("((()"));
+console.log(longestValidParentheses(")()())"));
+
+/**
+ * Longest Valid Parentheses Substring:
+    Input: "((()"
+    Output: 2
+Explanation: The longest valid parentheses substring is (), which has a length of 2.
+    Input: ")()())"
+    Output: 4
+Explanation: The longest valid parentheses substring is ()(), which has a length of 4
+*/
